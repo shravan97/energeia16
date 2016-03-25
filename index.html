@@ -29,6 +29,7 @@ License: Creative Commons Attribution 3.0 Unported
 	<script type="text/javascript" src="js/move-top.js"></script>
 	<script type="text/javascript" src="js/easing.js"></script>	
 	<script type="text/javascript" src="js/modernizr.custom.53451.js"></script>
+	<script type="text/javascript" src="js/datecheck.js"></script>
 	<script type="text/javascript">
 			jQuery(document).ready(function($) {
 				$(".scroll").click(function(event){		
@@ -81,11 +82,17 @@ License: Creative Commons Attribution 3.0 Unported
 	<!-- Button trigger modal -->
 <script type="text/javascript">
 	$(document).ready(function(){
-	$('#poster').modal('show');
-});
+		var today = new Date();
+		var dd = today.getDate();
+		var mm = today.getMonth()+1;
+		var yyyy = today.getFullYear();
+
+		if(mm==3 && dd<30 && yyyy==2016)
+			$('#poster').modal('show');
+	});
 </script>
 <!-- Modal -->
-<a class="btn" data-toggle="modal" href="#poster" style="position: fixed;z-index:10000;background: rgba(0,0,0,0.7);color: white; top: 50%; font-size: 1em;"><strong>ARTICLE WRITING CONTEST!
+<a class="btn" id="posterbtn" data-toggle="modal" href="#poster" style="position: fixed;z-index:10000;background: rgba(0,0,0,0.7);color: white; top: 50%; font-size: 1em;"><strong>ARTICLE WRITING CONTEST!
 <br/> DEADLINE : 30th March</strong></a>
 <div class="modal fade" id="poster" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
   <div class="modal-dialog" role="document">
@@ -363,8 +370,8 @@ License: Creative Commons Attribution 3.0 Unported
                                         <div class="services-grids-text">
                                                 <img src="images/icon9.png" alt="viriya"/>
                                                 <h5>VIRIYA 4.0</h5>
-                                                <p>A battle of powerful minds. The electrifying energy quiz is back with focus on 
-                                                    comfort, environment, hybrid energy and sustainable development. 
+                                                <p>The place where you can show your knowledge from science to sports ,
+						From engineering to entertainment
                                                 </p>
                                                 <div class="round-more">
                                                         <a data-toggle="modal" href="#viriyamodal">More</a>
@@ -380,18 +387,7 @@ License: Creative Commons Attribution 3.0 Unported
 							<a data-toggle="modal" href="#kwtmodal">More</a>
 						</div>
 					</div>
-				</div>
-				<div class="col-md-3 services-grids-info sgi-one" id="quiz">
-					<div class="services-grids-text">
-						<img src="images/quiz.jpg" alt="quiz" style="width: 90%;" />
-						<h5>Quiz</h5>
-						<p>The place where you can show your knowledge from science to sports ,
-						From engineering to entertainment</p>
-						<div class="round-more">
-							<a data-toggle="modal" href="#quizmodal">More</a>
-						</div>
-					</div>
-				</div>             
+				</div>   
 				<div class="clearfix"> </div>
 			</div>
 		</div>
@@ -474,11 +470,32 @@ Submit your papers through e-mail : energeia16@gmail.com
     <div class="modal-content" style="background: rgba(0,0,0,0.7);color: white;">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="background: white;"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title text-center" id="viriya"><strong>Viriya </strong></h4>
+        <h4 class="modal-title text-center" id="viriya"><strong>Viriya 4.0</strong></h4>
       </div>
       <div class="modal-body">
-        A battle of powerful minds. The electrifying energy quiz is back with focus on 
-                                                    comfort, environment, hybrid energy and sustainable development.
+      Are you a multi-talented person having diversified knowledge ?
+        <br/> Then this is your cup of tea , the place where you can show your
+        <br/> knowledge from science to sports , from engineering to entertainment .
+        <br/> Join Energeia 16 and get energised !
+        <br/><br/><br/>
+        <h4> Rules </h4>
+        <ul>
+        	<li>
+        		A team of 2 can participate
+        	</li>
+        	<li>
+        		Any no. of teams can participate from a college
+        	</li>
+        	<li>
+        		Judges' decesion is final
+        	</li>
+        	<li>
+        		There will be preliminary written test before the main quiz
+        	</li>
+        </ul>
+        <br/>
+        <br/>
+        Cash prizes and certificates will be provided for the winners
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -504,23 +521,7 @@ Submit your papers through e-mail : energeia16@gmail.com
   </div>
 </div>
 
-<div class="modal fade" id="quizmodal" tabindex="-1" role="dialog" aria-labelledby="quiz">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content" style="background: rgba(0,0,0,0.7);color: white;">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="background: white;"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title text-center" id="quiz"><strong>Quiz</h4>
-      </div>
-      <div class="modal-body">
-        The place where you can show your knowledge from science to sports ,
-						From engineering to entertainment
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>	
+
 	<!--//services-->
 	<!--work-->
 	<div class="work" id="portfolio">
