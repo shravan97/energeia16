@@ -7,7 +7,7 @@ License: Creative Commons Attribution 3.0 Unported
 <!doctype html>
 <html>
 <head>
-	<title>ENERGEIA' 16</title>
+	<title>ENERGEIA' 15</title>
 	<link href="css/style.css" type="text/css" rel="stylesheet" media="all">
 	<link href="css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
 	<!--web-font-->
@@ -17,14 +17,13 @@ License: Creative Commons Attribution 3.0 Unported
 	<!-- Custom Theme files -->
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<meta name="keywords" content="Energeia 16, CEED, NIT, Trichy, Tiruchirapalli" />
+	<meta name="keywords" content="Energeia 15, CEED, NIT, Trichy, Tiruchirapalli" />
 	<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 	<!-- //Custom Theme files -->
 	<!-- js -->
 	<script src="js/jquery.min.js"></script>
 	<!-- //js -->	
-	<script type="text/javascript" src="js/bootstrap.min.js"></script>
 	<!-- start-smoth-scrolling-->
 	<script type="text/javascript" src="js/move-top.js"></script>
 	<script type="text/javascript" src="js/easing.js"></script>	
@@ -45,7 +44,7 @@ License: Creative Commons Attribution 3.0 Unported
 	<div class="header" id="home">
 		<div class="container">
 			<div class="header-logo">
-				<a href="index.html"><img src="images/energeia16_logo.jpg" alt="logo" style="height: 100%;width: 100%;" /></a>
+				<a href="index.html"><img src="images/logo1.jpg" alt="logo1"/></a>
 			</div>
 			<div class="top-nav">
 				<span class="menu"><img src="images/menu-icon.png" alt=""/></span>
@@ -71,38 +70,6 @@ License: Creative Commons Attribution 3.0 Unported
 	</div>
 	<!--//header-->
 	<!--banner-->
-	<!-- <div id="sidestick" style="background:rgba(0,0,0,0.7);color: white; z-index:999;width: 100%; float: right;">
-		ARTICLE
-	</div> -->
-	<!-- <div>
-		<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#article">Article Writing</button>
-	</div> -->
-
-	<!-- Button trigger modal -->
-<script type="text/javascript">
-	$(document).ready(function(){
-	$('#poster').modal('show');
-});
-</script>
-<!-- Modal -->
-<a class="btn" data-toggle="modal" href="#poster" style="position: fixed;z-index:10000;background: rgba(0,0,0,0.7);color: white; top: 50%; font-size: 1em;"><strong>ARTICLE WRITING CONTEST!
-<br/> DEADLINE : 30th March</strong></a>
-<div class="modal fade" id="poster" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content" style="background: rgba(0,0,0,0.7);color: white;">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="background: white;"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title text-center" id="myModalLabel"><strong>!!!! ARTICLE WRITING CONTEST !!!!</h4>
-      </div>
-      <div class="modal-body">
-        <img src="images/poster.png" style="width: 90%;" />
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>
 	<div class="banner">				
 				<!--//End-slider-script -->
 				<script src="js/responsiveslides.min.js"></script>
@@ -133,7 +100,7 @@ License: Creative Commons Attribution 3.0 Unported
 								<div class="container">
 									<div class="banner-title">
 										<div class="bnr-top-text">
-											<h1>ENERGEIA, 16...</h1>
+											<h1>ENERGEIA, 15...</h1>
 										</div>
 										<div class="bnr-bottom-text">
 											<p>"ENERGEIA"<br> A one day tech fest organized by DEE, NIT Trichy, has been 
@@ -159,7 +126,7 @@ License: Creative Commons Attribution 3.0 Unported
 								<div class="container">
 									<div class="banner-title">
 										<div class="bnr-top-text">
-											<h1>ENERGEIA' 16...</h1>
+											<h1>ENERGEIA' 15...</h1>
 										</div>
 										<div class="bnr-bottom-text">
 											<p>"ENERGEIA"<br> A one day tech fest organized by DEE, NIT Trichy, has been 
@@ -185,7 +152,7 @@ License: Creative Commons Attribution 3.0 Unported
 								<div class="container">
 									<div class="banner-title">
 										<div class="bnr-top-text">
-											<h1>ENERGEIA, 16...</h1>
+											<h1>ENERGEIA, 15...</h1>
 										</div>
 										<div class="bnr-bottom-text">
 											<p>"ENERGEIA"<br> A one day tech fest organized by DEE, NIT Trichy, has been 
@@ -211,7 +178,7 @@ License: Creative Commons Attribution 3.0 Unported
 								<div class="container">
 									<div class="banner-title">
 										<div class="bnr-top-text">
-											<h1>ENERGEIA, 16...</h1>
+											<h1>ENERGEIA, 15...</h1>
 										</div>
 										<div class="bnr-bottom-text">
 											<p>"ENERGEIA"<br> A one day tech fest organized by DEE, NIT Trichy, has been 
@@ -321,200 +288,69 @@ License: Creative Commons Attribution 3.0 Unported
 			<div class="services-grids">
 				<div class="col-md-3 services-grids-info sgi-one">
 					<div class="services-grids-text">
-						<img src="images/paperpres2.png" alt="paper presentation"/>
-						<h5>Paper Presentation</h5>
-						<p>A paper presentation event is a chance to unleash your presentation and technical skills on a single platform. Come on genius; soak your brain to fill the podium!</p>
+						<img src="images/icon2.png" alt=""/>
+						<h5>CFD</h5>
+						<p>Workshop deals with basic concepts, tutorials and modern trends in the field of 
+                                                    fluid mechanics that uses numerical methods  and algorithms to solve and analyze problems
+                                                    that involve fluid flows.
+                                                </p>
 						<div class="round-more">
-							<a data-toggle="modal" href="#ppmodal">More</a>
+							<a href="#">More</a>
 						</div>
 					</div>	
 				</div>
 				<div class="col-md-3 services-grids-info">
 					<div class="services-grids-text">
-						<img src="images/planting.jpg" alt="Vriksh ropan"/>
-						<h5>Vriksh Ropan</h5>
-						<p>“A canopy for earth” - Tree plantation in campus</p>
+						<img src="images/icon3.png" alt=""/>
+						<h5>LAB-VIEW</h5>
+						<p>Sharing informations about LAB-VIEW, a commonly used software for data acquisition,
+                                                    instrument control, and industrial automation on a variety of platforms including
+                                                    Microsoft Windows, various versions of UNIX, Linux, and Mac OS X 
+                                                </p>
 						<div class="round-more">
-							<a data-toggle="modal" href="#vrmodal">More</a>
+							<a href="#ANUPAM">More</a>
 						</div>
 					</div>
 				</div>
 				<div class="col-md-3 services-grids-info sgi-one">
 					<div class="services-grids-text">
-						<img src="images/icon4.png" alt="guest lectures"/>
+						<img src="images/icon4.png" alt=""/>
 						<h5>GUEST LECTURES</h5>
-						<p>Eminent personalities from various industries and top technical universities share valuable information related to renewable energy, energy conservation and energy efficiency</p>
+						<p> 1. Mr. Jasper Lal C, Head, Heat Transfer & Performance Simulation Division, VSSC, ISRO  -   
+						           Trivandrum </p>
+						       	
+						<p> 2. Mr. Tejas Lomate, CEO, Verita International Ltd, Pune </p>
 						<div class="round-more">
-							<a data-toggle="modal" href="#glmodal">More</a>
+							<a href="#">More</a>
 						</div>
 					</div>
 				</div>
 				<div class="col-md-3 services-grids-info">
 					<div class="services-grids-text">
-						<img src="images/icon5.png" alt="snap-e"/>
+						<img src="images/icon5.png" alt=""/>
 						<h5>SNAP E</h5>
 						<p>Snap, share n win.....photography contest on energy conservation. </p>
 						<div class="round-more">
-							<a data-toggle="modal" href="#snpemodal">More</a>
+							<a href="#">More</a>
 						</div>
 					</div>
 				</div>
                                 <div class="col-md-3 services-grids-info sgi-one">
                                         <div class="services-grids-text">
-                                                <img src="images/icon9.png" alt="viriya"/>
+                                                <img src="images/icon9.png" alt=""/>
                                                 <h5>VIRIYA 3.0</h5>
                                                 <p>A battle of powerful minds. The electrifying energy quiz is back with focus on 
                                                     comfort, environment, hybrid energy and sustainable development. 
                                                 </p>
                                                 <div class="round-more">
-                                                        <a data-toggle="modal" href="#viriyamodal">More</a>
+                                                        <a href="#">More</a>
                                                 </div>
                                         </div>
                                 </div>
-                   <div class="col-md-3 services-grids-info" id="killawatt">
-					<div class="services-grids-text">
-						<img src="images/kill_a_watt.jpg" alt="kill-a-watt" style="width: 90%;" />
-						<h5>Kill-A-Watt</h5>
-						<p>“An energy saving competition”  a practical innovative solution for an energy related hypothetical situation</p>
-						<div class="round-more">
-							<a data-toggle="modal" href="#kwtmodal">More</a>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-3 services-grids-info sgi-one" id="quiz">
-					<div class="services-grids-text">
-						<img src="images/quiz.jpg" alt="quiz" style="width: 90%;" />
-						<h5>Quiz</h5>
-						<p>The place where you can show your knowledge from science to sports ,
-						From engineering to entertainment</p>
-						<div class="round-more">
-							<a data-toggle="modal" href="#quizmodal">More</a>
-						</div>
-					</div>
-				</div>             
 				<div class="clearfix"> </div>
 			</div>
 		</div>
-	</div>	
-	<!-- events modals -->
-<div class="modal fade" id="ppmodal" tabindex="-1" role="dialog" aria-labelledby="pp">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content" style="background: rgba(0,0,0,0.7);color: white;">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="background: white;"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title text-center" id="pp"><strong>Paper Presentation</strong></h4>
-      </div>
-      <div class="modal-body">
-        ...
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>	
-
-<div class="modal fade" id="vrmodal" tabindex="-1" role="dialog" aria-labelledby="vr">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content" style="background: rgba(0,0,0,0.7);color: white;">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="background: white;"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title text-center" id="vr"><strong>Vriksh Ropan</strong></h4>
-      </div>
-      <div class="modal-body">
-        ...
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>	
-
-<div class="modal fade" id="glmodal" tabindex="-1" role="dialog" aria-labelledby="gl">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content" style="background: rgba(0,0,0,0.7);color: white;">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="background: white;"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title text-center" id="gl"><strong>Guest Lectures</strong></h4>
-      </div>
-      <div class="modal-body">
-        ...
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>	
-
-<div class="modal fade" id="snpemodal" tabindex="-1" role="dialog" aria-labelledby="snpe">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content" style="background: rgba(0,0,0,0.7);color: white;">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="background: white;"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title text-center" id="snpe"><strong>Snap -E</strong></h4>
-      </div>
-      <div class="modal-body">
-        ...
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="modal fade" id="viriyamodal" tabindex="-1" role="dialog" aria-labelledby="viriya">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content" style="background: rgba(0,0,0,0.7);color: white;">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="background: white;"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title text-center" id="viriya"><strong>Viriya </strong></h4>
-      </div>
-      <div class="modal-body">
-        ...
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="modal fade" id="kwtmodal" tabindex="-1" role="dialog" aria-labelledby="kwt">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content" style="background: rgba(0,0,0,0.7);color: white;">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="background: white;"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title text-center" id="kwt"><strong>Kill-A-Watt</strong></h4>
-      </div>
-      <div class="modal-body">
-        ...
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="modal fade" id="quizmodal" tabindex="-1" role="dialog" aria-labelledby="quiz">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content" style="background: rgba(0,0,0,0.7);color: white;">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="background: white;"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title text-center" id="quiz"><strong>Paper Presentation</h4>
-      </div>
-      <div class="modal-body">
-        ...
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>	
+	</div>		
 	<!--//services-->
 	<!--work-->
 	<div class="work" id="portfolio">
@@ -523,21 +359,21 @@ License: Creative Commons Attribution 3.0 Unported
 			<span class="trngl"></span>
                         <p>
                             <b style="color: black">IMPORTANT DATES</b><br>
-                           Last date for registration - 10/04/2016<br>
+                           Last date for registration - 15/04/2015<br>
                            <br>
                            <b style="color: black">TO REGISTER</b><br>
                            Please visit the below link<br>
-                           <a href="http://goo.gl/forms/Ltf5xxN47p" target="_blank">Energeia'16 Registration</a><br>                           
+                           <a href="https://docs.google.com/forms/d/1xxGXvYQPiPl8L707eLXwiqVrGyKpTH9L8irIdW1uE8M/viewform?usp=send_form">Energeia'15 Registration</a><br>                           
                            <br>
                            <b style="color: black">REGISTRATION FEE</b><br>
-                           <i class="fa fa-inr"></i> <u>200</u> for students<br>
-                           <i class="fa fa-inr"></i> <u>300</u> for others<br>
+                           <i class="fa fa-inr"></i> <u>100</u> for students<br>
+                           <i class="fa fa-inr"></i> <u>200</u> for others<br>
                            Mode of payment: Cash-on spot<br>
                            <br>
                            Accommodation will be provided on requisition and paid basis<br>
                            <br>
                            <b style="color: black">VENUE : </b>DEPARTMENT OF ENERGY AND ENVIRONMENT (DEE), NIT TRICHY<br>
-                           <b style="color: black">DATE : </b>APRIL 16, 2016<br>
+                           <b style="color: black">DATE : </b>APRIL 16, 2015<br>
                            <b style="color: black">TIME : </b>9:00 AM to 5:30 PM                  
                         </p>
 			<!--<main class="cd-main-content">
@@ -641,18 +477,18 @@ License: Creative Commons Attribution 3.0 Unported
                                     <!--<p><b style="color:#f5b303">VENUE : </b><br></p>-->
 					<ul>
 						
-						<li><span class="ph-no"></span>P.KANNAN</li>
-						<li><span class="ph-no"></span>+91 9840805017</li>
-                                                <li><span class="mail"></span>mail id : energeia16@gmail.com</a></li>
+						<li><span class="ph-no"></span>UDAYAKUMAR</li>
+						<li><span class="ph-no"></span>+91 9789 214990,+918754227155</li>
+                                                <li><span class="mail"></span>mail id : energeia15@gmail.com</a></li>
 					</ul>
 
 				</div>
 				<div class="col-md-6 contact-left"><br><br><br><br><br><br><br>
                                         <ul>
 						
-						<li><span class="ph-no"></span>NIPUN GUPTA</li>
-						<li><span class="ph-no"></span>+91 9713433109</li>
-                                                <li><span class="mail"></span><a href="https://www.facebook.com/energeia14?fref=ts">facebook/energeia16</a></li>
+						<li><span class="ph-no"></span>AYUSH</li>
+						<li><span class="ph-no"></span>+91 8883 916539</li>
+                                                <li><span class="mail"></span><a href="https://www.facebook.com/energeia14?fref=ts">facebook/energeia15</a></li>
 					</ul>
 					<!--<form>
 						<input type="text" value="Your Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Your Name';}" required="">
@@ -673,7 +509,7 @@ License: Creative Commons Attribution 3.0 Unported
 				<a href="index.html"><img src="images/footer-logo.png" alt="logo"/></a>
 			</div>
 			<div class="footer-right">
-				<p>© 2016 All rights reserved | Designed by <a href="index.html">A P</a></p>
+				<p>© 2015 All rights reserved | Designed by <a href="index.html">A P</a></p>
 			</div>
 			<div class="clearfix"> </div>
 		</div>	
