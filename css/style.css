@@ -681,10 +681,7 @@ select#selectThis {
  @media only screen and (min-width: 1170px)
  { 
   #killawatt {
-  	margin-top: -25%;
-  }
-  #quiz {
-  	margin-top: -31%;
+  	margin-top: -23%;
   }
 }
 .cd-main-content {
